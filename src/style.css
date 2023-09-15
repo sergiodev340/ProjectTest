@@ -1,35 +1,90 @@
+@font-face {
+    font-family: "Neue-Light";
+    src: url(/fonts/NeueMachina-Light.otf);
+}
+
+@font-face {
+    font-family: "Neue-Regular";
+    src: url(/fonts/NeueMachina-Regular.otf);
+}
+
+@font-face {
+    font-family: "Neue-Ultrabold";
+    src: url(/fonts/NeueMachina-Ultrabold.otf);
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+:root {
+    --color-btn-black: black;
+    --color-btn-black-text: #fff;
+}
+
 body {
     display: flex;
     justify-content: center;
-    width: 1440px;
-    height: 100vh;
-    margin: 0 auto;
+
 
 }
 
-.nav-bar {
+.container {
     display: flex;
-    flex-direction: row;
-    width: 960px;
-    height: 52px;
-    border: 1px solid red;
+    justify-content: center;
+    width: 100vw;
+    margin: 0 auto;
 }
 
-.links-li {
-    margin-left: 40px;
+.header {
     display: flex;
     align-items: center;
-    gap: 30px;
+    justify-content: start;
+    width: 100%;
+    height: 52px;
+    /* border: 1px solid red; */
+    margin: 32px 32px 80px 32px;
+
 }
 
 .links-li a {
+    font-family: "Neue-Regular", sans-serif;
+    margin-left: 30px;
     text-decoration: none;
-    font-size: 18px;
-
+    color: #151515;
 }
+
+.links-li a:hover {
+    color: #c2c2c2;
+}
+
+.header button {
+    font-family: "Neue-Regular", sans-serif;
+    width: 145px;
+    height: 52px;
+    margin: 0 10px;
+    border: 1px solid lightgray;
+}
+
+.header button:hover {
+    background: var(--color-btn-black-text);
+    color: #151515;
+}
+
+.segura-button {
+    margin-left: 505px;
+    /* border: 1px solid blue; */
+}
+
+.segura-button .signup {
+    background: var(--color-btn-black);
+    color: var(--color-btn-black-text);
+}
+
+.segura-button .login {
+    background-color: #F0F0F0;
+}
+
+/* //////////////////////////////// HEADER ///////////////////////// */
