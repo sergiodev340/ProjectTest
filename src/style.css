@@ -34,7 +34,8 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    width: 100vw;
+    flex-direction: column;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -42,7 +43,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 100%;
+    width: 96.5%;
     height: 52px;
     /* border: 1px solid red; */
     margin: 32px 32px 80px 32px;
@@ -88,3 +89,33 @@ body {
 }
 
 /* //////////////////////////////// HEADER ///////////////////////// */
+
+.section {
+    background-image: url(/img/Illustration_1.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    width: 95.5%;
+    height: 724px;
+    margin-left: 32px;
+    border: 1px solid red;
+
+}
+
+
+.section .textH1 {
+    font-family: "Neue-Regular";
+    font-size: 70px;
+    width: 500px;
+    height: 470px;
+    border: 1px solid blue;
+}
+
+.section .text {
+    font-family: "Neue-Light";
+    margin-top: 20px;
+    width: 70%;
+    border: 1px solid green;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
