@@ -5,5 +5,31 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
     width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+    height: 52px;
+    border: 1px solid red;
+}
+
+.links-li {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.links-li a {
+    text-decoration: none;
+    font-size: 18px;
+
 }
