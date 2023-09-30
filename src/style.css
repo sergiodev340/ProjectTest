@@ -161,3 +161,31 @@ body {
 .imgs-logo img {
     margin-right: 32px;
 }
+
+/*////////////////////////ABOUT US/////////////*/
+
+
+.abouts-us {
+    width: 98vw;
+    height: 660px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    background-image: url(/img/Illustration_2.png);
+    background-size: 600px;
+    background-repeat: no-repeat;
+
+    
+}
+
+
+.abouts-us p {
+    font-size: 14px;
+    font-family: "Neue-Ultrabold";
+    background-color: var(--color-bg-segundo-branco);
+    border: 1px solid #151515;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    padding: 6px 16px;
+}
