@@ -83,8 +83,8 @@ body {
 }
 
 .segura-button {
-    margin-left: 505px;
-    /* border: 1px solid blue; */
+    margin-left: 650px;
+    border: 1px solid blue;
 }
 
 .segura-button .signup {
@@ -189,3 +189,44 @@ body {
     align-items: center;
     padding: 6px 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1500px) {
+    .segura-button {
+      margin-left: 650px;
+    }
+    
+  }
+
+
+@media (min-width: 1024) {
+    .segura-button {
+        margin-left: 50px;
+    }
+    .links-li a{
+        display: none;
+    }
+  }
