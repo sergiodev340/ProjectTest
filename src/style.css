@@ -169,7 +169,7 @@ body {
 
 .plaquinha span{
     position: absolute;
-    top: 160%;
+    top: 152%;
     right: 53.2%;
     background-color: var(--color-second-wht);
     border: 1px solid #151515;
@@ -183,8 +183,8 @@ body {
 .about-us {
     width: 98vw;
     height: 660px;
-    margin-top: 200px;
-    border: 1px solid red;
+    margin-top: 150px;
+    /* border: 1px solid red; */
     background-image: url(/img/Illustration_2.png);
     background-size: 600px;
     background-repeat: no-repeat;
@@ -206,7 +206,7 @@ body {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
@@ -250,20 +250,19 @@ body {
 
 
 
-@media (min-width: 1440px) {
+@media (min-width: 1400px) and (max-width: 1920px) {
     .segura-button {
-      margin-left: 500px;
+      margin-left: 550px;
     }
     
   }
 
 
-@media (min-width: 1024) {
+@media (min-width: 1024px) and (max-width: 1390px){
     .segura-button {
-        margin-left: 200px;
+        margin-left: 550px;
     }
     .links-li a{
         display: none;
-        color: aqua;
     }
   }
