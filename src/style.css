@@ -46,6 +46,7 @@ body {
 
 .header {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: start;
     width: 96.5%;
@@ -166,24 +167,12 @@ body {
 
 /*////////////////////////ABOUT US/////////////*/
 
-.plaquinha span {
-    position: absolute;
-    top: 152%;
-    right: 53.2%;
-    background-color: var(--color-second-wht);
-    border: 1px solid #151515;
-    padding: 6px 16px;
-    font-family: "Neue-Ultrabold";
-    font-size: 14px;
-}
-
-
-
 .about-us {
     width: 98vw;
+    position: relative;
     height: 660px;
     margin-top: 150px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     background-image: url(/img/Illustration_2.png);
     background-size: 600px;
     background-repeat: no-repeat;
@@ -193,6 +182,21 @@ body {
 
 
 }
+
+
+.about-us span {
+    position: absolute;
+    top: 0%;
+    right: 50%;
+    background-color: var(--color-second-wht);
+    border: 1px solid #151515;
+    padding: 6px 16px;
+    font-family: "Neue-Ultrabold";
+    font-size: 14px;
+}
+
+
+
 
 .about-us h2 {
     font-size: 60px;
@@ -264,13 +268,13 @@ body {
 
     .segura-button {
         position: absolute;
-        top: 5.3%;
+        top: 0%;
         right: 3%;
     }
 
-    .plaquinha span {
-        top: 172.5%;
-        right: 52%;
+    .about-us span {
+        top: 0;
+        right: 51.6%;
     }
 
     .about-us {
@@ -283,12 +287,23 @@ body {
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1150px) {
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .section {
+        background-size: 500px;
+    }
+
     .segura-button {
-        margin-left: 550px;
+        position: absolute;
+        top: 0%;
+        right: 3%;
     }
 
     .links-li a {
-        display: none;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .about-us {
+        background-size: 500px;
     }
 }
