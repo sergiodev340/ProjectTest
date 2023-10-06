@@ -45,6 +45,7 @@ body {
 }
 
 .header {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -167,7 +168,26 @@ body {
 
 /*////////////////////////ABOUT US/////////////*/
 
-.plaquinha span{
+
+
+
+.about-us {
+    width: 98vw;
+    height: 660px;
+    margin-top: 150px;
+    position: relative;
+    /* border: 1px solid red; */
+    background-image: url(/img/Illustration_2.png);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+
+
+}
+
+.about-us span {
     position: absolute;
     top: 152%;
     right: 53.2%;
@@ -178,30 +198,13 @@ body {
     font-size: 14px;
 }
 
-
-
-.about-us {
-    width: 98vw;
-    height: 660px;
-    margin-top: 150px;
-    /* border: 1px solid red; */
-    background-image: url(/img/Illustration_2.png);
-    background-size: 600px;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items:flex-start;
-    justify-content: end;
-
-    
-}
-
-.about-us h2{
+.about-us h2 {
     font-size: 60px;
     font-weight: 400;
     font-family: "Neue-Regular";
 }
 
-.text-about{
+.text-about {
     width: 60%;
     margin-top: 50px;
     display: flex;
@@ -219,11 +222,11 @@ body {
 }
 
 .list-about-us ul {
-   list-style: square;
-   margin-left: 20px;
-   font-size: 23px;
-   line-height: 40px;
-   font-family: "Neue-Regular";
+    list-style: square;
+    margin-left: 20px;
+    font-size: 23px;
+    line-height: 40px;
+    font-family: "Neue-Regular";
 }
 
 
@@ -252,17 +255,55 @@ body {
 
 @media (min-width: 1400px) and (max-width: 1920px) {
     .segura-button {
-      margin-left: 550px;
-    }
-    
-  }
-
-
-@media (min-width: 1024px) and (max-width: 1390px){
-    .segura-button {
         margin-left: 550px;
     }
-    .links-li a{
-        display: none;
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1390px) {
+    .section {
+        background-size: 550px;
     }
-  }
+
+    .segura-button {
+        position: absolute;
+        top: 0%;
+        right: 3%;
+    }
+
+    .about-us span {
+        top: 0;
+        right: 51.6%;
+    }
+
+    .about-us {
+        background-size: 550px;
+    }
+
+    .links-li a {
+        font-size: 16px;
+        gap: 14px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .section {
+        background-size: 500px;
+    }
+
+    .segura-button {
+        position: absolute;
+        top: 0%;
+        right: 3%;
+    }
+
+    .links-li a {
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .about-us {
+        background-size: 500px;
+    }
+}
