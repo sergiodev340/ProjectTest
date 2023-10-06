@@ -254,14 +254,6 @@ body {
 
 
 @media (min-width: 1400px) and (max-width: 1920px) {
-    .segura-button {
-        margin-left: 550px;
-    }
-
-}
-
-
-@media (min-width: 1200px) and (max-width: 1390px) {
     .section {
         background-size: 550px;
     }
@@ -287,7 +279,34 @@ body {
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1199px) {
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .section {
+        background-size: 550px;
+    }
+
+    .segura-button {
+        position: absolute;
+        top: 0%;
+        right: 3%;
+    }
+
+    .about-us span {
+        top: 0;
+        right: 51.6%;
+    }
+
+    .about-us {
+        background-size: 550px;
+    }
+
+    .links-li a {
+        font-size: 16px;
+        gap: 14px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
     .section {
         background-size: 500px;
     }
@@ -305,5 +324,10 @@ body {
 
     .about-us {
         background-size: 500px;
+    }
+
+    .about-us span {
+        top: 0;
+        right: 51.6%;
     }
 }
