@@ -50,7 +50,7 @@ body {
     justify-content: start;
     width: 96.5%;
     height: 52px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin: 32px 32px 80px 32px;
 
 }
@@ -60,7 +60,7 @@ body {
     margin-left: 30px;
     text-decoration: none;
     color: #151515;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
 }
 
 .links-li a:hover {
@@ -86,7 +86,6 @@ body {
 }
 
 .segura-button {
-    margin-left: 600px;
     border: 1px solid blue;
 }
 
@@ -167,7 +166,7 @@ body {
 
 /*////////////////////////ABOUT US/////////////*/
 
-.plaquinha span{
+.plaquinha span {
     position: absolute;
     top: 152%;
     right: 53.2%;
@@ -189,19 +188,19 @@ body {
     background-size: 600px;
     background-repeat: no-repeat;
     display: flex;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: end;
 
-    
+
 }
 
-.about-us h2{
+.about-us h2 {
     font-size: 60px;
     font-weight: 400;
     font-family: "Neue-Regular";
 }
 
-.text-about{
+.text-about {
     width: 60%;
     margin-top: 50px;
     display: flex;
@@ -219,11 +218,11 @@ body {
 }
 
 .list-about-us ul {
-   list-style: square;
-   margin-left: 20px;
-   font-size: 23px;
-   line-height: 40px;
-   font-family: "Neue-Regular";
+    list-style: square;
+    margin-left: 20px;
+    font-size: 23px;
+    line-height: 40px;
+    font-family: "Neue-Regular";
 }
 
 
@@ -252,17 +251,44 @@ body {
 
 @media (min-width: 1400px) and (max-width: 1920px) {
     .segura-button {
-      margin-left: 550px;
+        margin-left: 550px;
     }
-    
-  }
+
+}
 
 
-@media (min-width: 1024px) and (max-width: 1390px){
+@media (min-width: 1200px) and (max-width: 1390px) {
+    .section {
+        background-size: 550px;
+    }
+
+    .segura-button {
+        position: absolute;
+        top: 5.3%;
+        right: 3%;
+    }
+
+    .plaquinha span {
+        top: 172.5%;
+        right: 52%;
+    }
+
+    .about-us {
+        background-size: 550px;
+    }
+
+    .links-li a {
+        font-size: 16px;
+        gap: 14px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1150px) {
     .segura-button {
         margin-left: 550px;
     }
-    .links-li a{
+
+    .links-li a {
         display: none;
     }
-  }
+}
