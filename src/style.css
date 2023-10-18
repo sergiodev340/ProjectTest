@@ -306,7 +306,7 @@ body {
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1200px) {
+@media (min-width: 998px) and (max-width: 1200px) {
     .section {
         background-size: 500px;
     }
@@ -329,5 +329,44 @@ body {
     .about-us span {
         top: 0;
         right: 51.6%;
+    }
+}
+
+
+@media (min-width: 870px) and (max-width: 998px) {
+    .section {
+        background-size: 420px;
+    }
+
+    .links-li a {
+        margin-left: 20px;
+    }
+
+    .segura-button {
+        display: flex;
+        position: absolute;
+        top: 0%;
+        right: 3%;
+        /* border: 1px solid red; */
+    }
+
+    .segura-button button {
+        width: 140px;
+        height: 48px;
+        font-size: 12px;
+    }
+
+    .links-li a {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    .about-us {
+        background-size: 400px;
+    }
+
+    .about-us span {
+        top: 0;
+        right: 46.8%;
     }
 }
